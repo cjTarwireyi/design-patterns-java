@@ -1,7 +1,21 @@
 public class Car {
     //Attributes
-    float weight = 1200;
-    String color = "white";
+    private float weight;
+    private String color;
+
+    //Getters & Setters
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public float getWeight() {
+        return weight;
+    }
+    public String getColor() {
+        return color;
+    }
 
     //constructor => used to create the object
     public Car(float weight, String color){
