@@ -1,5 +1,7 @@
 package abstraction;
-
+//A class that can not be instantiated
+//subclasses overrides or implement its methods
+//subclasses can not implement multiple abstract classes
 public abstract class Animal {
     //Different behaviors goes into abstract methods which does not contain implementation in the base class
     // Implementation will only be in the subclasses
