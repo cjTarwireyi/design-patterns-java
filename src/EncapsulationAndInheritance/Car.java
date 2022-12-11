@@ -1,4 +1,6 @@
-public class Car {
+package EncapsulationAndInheritance;
+
+public class Car extends Vehicle {
     //Attributes
     private float weight;
     private String color;
